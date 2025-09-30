@@ -10,8 +10,8 @@ size_t write_data(void *ptr, size_t size, size_t nmemb, void *stream) {
 
 int main() {
     std::string api_key = "Your_API_Key";  // replace with your key
-    std::string lat = "35.324353";  // X coordinate
-    std::string lng = "25.106901";  // Y coordinate
+    std::string lat = "35.308097";  // X coordinate
+    std::string lng = "25.083084";  // Y coordinate
 
     std::string url = "https://maps.googleapis.com/maps/api/staticmap?center=" +
                       lat + "," + lng +
